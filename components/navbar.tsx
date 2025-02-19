@@ -22,14 +22,14 @@ export default function Navbar() {
         >
             <Link href="/" className="flex items-center space-x-2">
                 <Bot className="w-8 h-8 text-purple-500" />
-                <span className="text-white font-medium text-xl">ResearchAI</span>
+                <span className="text-white font-medium text-xl">runall.io</span>
             </Link>
 
             <div className="hidden md:flex items-center space-x-8">
                 <NavLink href="/coming-soon">Features</NavLink>
                 <NavLink href="/coming-soon">How it Works</NavLink>
-                <NavLink href="/coming-soon">Examples</NavLink>
-                <NavLink href="/coming-soon">Pricing</NavLink>
+                <NavLink href="/coming-soon">Use cases</NavLink>
+                <NavLink href="/coming-soon">Early access</NavLink>
             </div>
 
             <div className="hidden md:flex items-center space-x-4">

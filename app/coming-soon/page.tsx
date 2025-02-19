@@ -15,7 +15,7 @@ export default function ComingSoon() {
                 className="text-center"
             >
                 <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Coming Soon</h1>
-                <p className="text-xl text-gray-400 mb-8">We're working hard to bring you something amazing!</p>
+                <p className="text-xl text-gray-400 mb-8">We are working hard to bring you something amazing!</p>
                 <motion.div
                     initial={{ scale: 0 }}
                     animate={{ scale: 1 }}

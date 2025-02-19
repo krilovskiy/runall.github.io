@@ -14,8 +14,7 @@ export default function Home() {
               maxSize={1.4}
               particleDensity={100}
               className="w-full h-full"
-              particleColor="#FFFFFF"
-          />
+              particleColor="#FFFFFF"/>
         </div>
 
         <div className="relative z-10">
