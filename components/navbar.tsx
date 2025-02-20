@@ -54,8 +54,9 @@ export default function Navbar() {
                         <div className="flex flex-col items-center space-y-4">
                             <NavLink href="/features" onClick={toggleMenu}>Features</NavLink>
                             <NavLink href="/how-it-works" onClick={toggleMenu}>How it Works</NavLink>
-                            <NavLink href="/examples" onClick={toggleMenu}>Examples</NavLink>
-                            <NavLink href="/pricing" onClick={toggleMenu}>Pricing</NavLink>
+                            <NavLink href="/use-cases" onClick={toggleMenu}>Use cases</NavLink>
+                            <NavLink href="/early-access" onClick={toggleMenu}>Early access</NavLink>
+
                             <Button variant="ghost" className="text-white hover:text-purple-400" onClick={toggleMenu}>
                                 Sign In
                             </Button>
