@@ -26,10 +26,10 @@ export default function Navbar() {
             </Link>
 
             <div className="hidden md:flex items-center space-x-8">
-                <NavLink href="/coming-soon">Features</NavLink>
-                <NavLink href="/coming-soon">How it Works</NavLink>
-                <NavLink href="/coming-soon">Use cases</NavLink>
-                <NavLink href="/coming-soon">Early access</NavLink>
+                <NavLink href="/features">Features</NavLink>
+                <NavLink href="/how-it-works">How it Works</NavLink>
+                <NavLink href="/use-cases">Use cases</NavLink>
+                <NavLink href="/early-access">Early access</NavLink>
             </div>
 
             <div className="hidden md:flex items-center space-x-4">

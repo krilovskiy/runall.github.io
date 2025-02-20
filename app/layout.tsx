@@ -6,8 +6,8 @@ import { PageTransition } from "@/components/page-transition"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-    title: "ResearchAI",
-    description: "Transform your research with AI power",
+    title: "runall",
+    description: "New way to run your code",
 }
 
 export default function RootLayout({
