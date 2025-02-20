@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
 
     // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
     skipTrailingSlashRedirect: true,
+
+    basePath: '',
+    assetPrefix: '',
 };
 
 export default nextConfig;
